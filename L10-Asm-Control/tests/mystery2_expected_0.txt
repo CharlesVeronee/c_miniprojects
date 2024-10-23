@@ -1,0 +1,2 @@
+Enter an integer that causes f1 to return the value 18
+Success!

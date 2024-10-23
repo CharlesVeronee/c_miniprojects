@@ -1,0 +1,2 @@
+Enter an integer that causes f2 to return the value 4
+Success!

@@ -1,0 +1,12 @@
+CC = gcc
+OBJS = main.o func1.o func2.o
+
+main: $(OBJS)
+	$(CC) -o main $(OBJS)
+
+$(OBJS): %.o: %.c
+	$(CC) -c $?
+
+#do not modify this target
+clean:
+	rm -f main $(OBJS)

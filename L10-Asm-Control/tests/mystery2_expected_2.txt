@@ -1,0 +1,2 @@
+Enter three integers(in a line, separated by spaces) that causes f3 to return the value 20
+Success!
