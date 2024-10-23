@@ -1,0 +1,7 @@
+A: begin
+B: begin
+pid 281195 tid 281196
+pid 281195 tid 281197
+281196 done
+281197 done
+main: result 20000000
