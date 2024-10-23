@@ -1,0 +1,1 @@
+rotateRight 0xABCDEF81 8 = 0x81ABCDEF

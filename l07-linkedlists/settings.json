@@ -1,0 +1,14 @@
+{
+  "test_dir": "tests",
+  "mode": "exe",
+  "test_suite_names": ["pointers2"],
+  "non_zero_exit_status_penalty": 0.75,
+  "memory_penalty": 0.5,
+  "test_suites": {
+    "pointers2": [
+      { "desc": "stringcat",  "args": ["stringcat"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": true, "points": 40 },
+      { "desc": "sum_linked_list",  "args": ["sum_linked_list"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": true, "points": 30 },
+      { "desc": "linked_list_equality",  "args": ["linked_list_equality"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": true, "points": 30 }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "test_dir": "tests",
+  "mode": "exe",
+  "test_suite_names": ["btest"],
+  "non_zero_exit_status_penalty": 0.75,
+  "memory_penalty": 0.5,
+  "test_suites": {
+    "btest": [
+      { "desc": "isNegative0",  "args": ["isNegative0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "isNegative1",  "args": ["isNegative1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "negate0",  "args": ["negate0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "negate1",  "args": ["negate1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "getByte0",  "args": ["getByte0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "getByte1",  "args": ["getByte1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "byteSwap0",  "args": ["byteSwap0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "byteSwap1",  "args": ["byteSwap1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 7.5 },
+      { "desc": "rotateRight0",  "args": ["rotateRight0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 10 },
+      { "desc": "rotateRight1",  "args": ["rotateRight1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 10 },
+      { "desc": "addOK0",  "args": ["addOK0"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 10 },
+      { "desc": "addOK1",  "args": ["addOK1"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points": 10 }
+    ]
+  }
+}

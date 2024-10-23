@@ -1,0 +1,1 @@
+byteSwap 0xABCDEF01 1 3 = 0xEFCDAB01

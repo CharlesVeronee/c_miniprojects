@@ -1,0 +1,1 @@
+getByte 0xABCDEF01 2 = 0xCD
